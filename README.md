@@ -6,9 +6,9 @@ Section 2: Fundamentals: Procedural Constructs
 
 Agenda
 
-Global signal - reset, clock
-Control signal - It controls the operation of our design. Eg: read enable in the memory
-Data signal - Eg: databus in memory
+Global signal - reset, clock.
+Control signal - It controls the operation of our design. Eg: read enable in the memory.
+Data signal - Eg: databus in memory.
 These three signals will present in every design.
 
 ![image](https://github.com/user-attachments/assets/c4f693cc-a24b-4c5d-9de5-ba36ef812822)
@@ -22,7 +22,7 @@ For these categories of signals, we need to use the random stimulus or data to v
 Format of Initial Block in Testbench
 
 reg - it is the verilog datatype which is used here and later we will use the SV datatypes.
-The initial block starts execution at the start of simulation, which means they starts execution at '0ns'. Here, since we used the reg datatype, it will hold the data, even after the span of the initial block gets over. ie) a=0 will be stored till the end of simulation.
+The initial block starts execution at the start of simulation, which means they starts execution at '0ns'. Here, since we used the reg datatype, it will hold the data even after the span of the initial block gets over. ie) a=0 will be stored till the end of simulation.
 
 ![image](https://github.com/user-attachments/assets/94a0d71d-9e92-47ec-b163-48adf2010dba)
 
@@ -34,4 +34,13 @@ Usually the signal that we initialize in the testbench top is a global signal. T
 
 ![image](https://github.com/user-attachments/assets/8a67a876-909c-46ed-b15d-dab7ef38d832)
 
+Executing Code
+
+Here we can observe that the last value of temp is hold till the end of the simulation.
+
+![image](https://github.com/user-attachments/assets/1234a55e-184c-41d2-8a46-9961dcf2f04c)
+
+Also here we can observe the use of monitor.
+
+![image](https://github.com/user-attachments/assets/236f5343-af13-42e7-a715-5562e7b557d8)
 
