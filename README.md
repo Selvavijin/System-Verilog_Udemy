@@ -79,3 +79,36 @@ When we divide TU/TP when it is 1ns/1ns, we get 1 which is 10^0. So, the precisi
 ![image](https://github.com/user-attachments/assets/abcd9ead-7434-44b5-8c60-38454d32bffe)
 
 ![image](https://github.com/user-attachments/assets/c52badc0-5637-41c5-a8ad-a39269ca65ad)
+
+Demonstration
+
+Initially we are setting it to 1ns/1ns and see what happens. Here, the value will rounded off and the graph is plotted.
+
+![image](https://github.com/user-attachments/assets/ffaf489b-b054-4c95-a1f7-1386390b7f43)
+
+![image](https://github.com/user-attachments/assets/4999326b-3415-4b70-80bd-1cce86ff9a81)
+
+Now we are changing the timescale to 1ns/1ps and now it is accurate. This is how the timescale plays a crutial role here.
+
+![image](https://github.com/user-attachments/assets/7f500a24-8460-4394-9ffb-f5eace894315)
+
+![image](https://github.com/user-attachments/assets/ba5ae856-842c-43b9-85ff-e500be467853)
+
+Understanding parameters for generating Clock
+
+Let us understand how to generate the reconfigurable clock. To generate a new signal, we should have inputs frequency, duty cycle and phase difference w.r.to the reference signal. We are designing in such a way that the duty cycle is not is percentage as input, instead it should be 1 for 100%, 0.5 for 50%.
+
+![image](https://github.com/user-attachments/assets/6865147b-c825-4dd8-8831-e9c512558fe7)
+
+![image](https://github.com/user-attachments/assets/58425a63-1103-4de6-8efc-e49b3d4c2fb6)
+
+Demonstration Part 1
+
+![image](https://github.com/user-attachments/assets/5d3179f3-914d-4f1d-86e8-47c17ffebea7)
+
+This code is for the fixed clock. Now let us see how to write code for generating various clocks using 'task'.
+
+![image](https://github.com/user-attachments/assets/a4a98c5d-eb56-4c6a-ad35-d4c0170dab81)
+
+Demonstration Part 2
+
