@@ -44,3 +44,38 @@ Also here we can observe the use of monitor.
 
 ![image](https://github.com/user-attachments/assets/236f5343-af13-42e7-a715-5562e7b557d8)
 
+Format of always Block
+
+There are three kinds of always block in the system verilog. They are always_comb(for combinational circuit), always_ff(for sequential circuit), always_latch(for implementing latch). When we are using always block in the testbench, we don't need to use the sensitivity list because our objective in testbench is to generate a stimulus. In case of combinational circuit, the system is sensitive to all the inputs. And in case of sequential circuits, the system is sensitive to clock.
+
+![image](https://github.com/user-attachments/assets/88fb718c-9001-4e5f-8b26-89026889a710)
+
+Usage of always Block
+
+Now let us understand how to generate single clock signal. And later we will understand how to generate multiple clock signal. If the time of clock is 10ns, then the dut which we are testing will be tested on 100Mhz frequency. When we are using 'always' to generate clock, it will run forever since there is no sensitivity list. So to stop this we use '$finish' at the end of simulation. It is necessory to initialize the clock because we need a stable value to complement. Otherwise it will take the default value of 'x'.
+
+![image](https://github.com/user-attachments/assets/af2a5f62-c040-4874-a2b9-489804c112ac)
+
+Aligning edges of the generated clock and reference clock
+
+Here, the first edge of all three clock signals are not aligned. Let us see how to align it.
+
+![image](https://github.com/user-attachments/assets/deb37f8b-9812-4d92-b141-214d03ef1a57)
+
+So, we leave the 100Mhz clock as it is and do alteration for the 50Mhz and 25Mhz clocks.
+
+![image](https://github.com/user-attachments/assets/1e25497c-1d9c-4f2d-8be9-2f26c1fa3c21)
+
+![image](https://github.com/user-attachments/assets/2f7c5ff0-7faa-41cf-a049-8238c7017d8e)
+
+Understanding `timescale directive
+
+When we want to generate clock in decimal, at that time, timescale will come into account.
+
+![image](https://github.com/user-attachments/assets/ff815056-3558-460a-b7bc-5543d086c8e8)
+
+When we divide TU/TP when it is 1ns/1ns, we get 1 which is 10^0. So, the precision digit we have is 0. So, now we can't use the floating point number. So, when we have number like 10.2, it will be rounded to 10, and when we have 10.7, it will be rounded to 11.
+
+![image](https://github.com/user-attachments/assets/abcd9ead-7434-44b5-8c60-38454d32bffe)
+
+![image](https://github.com/user-attachments/assets/c52badc0-5637-41c5-a8ad-a39269ca65ad)
