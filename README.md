@@ -112,3 +112,49 @@ This code is for the fixed clock. Now let us see how to write code for generatin
 
 Demonstration Part 2
 
+Here we are calculating the phase, ton and toff and developing the code.
+
+![image](https://github.com/user-attachments/assets/7bbec5d3-f391-4ad9-a189-06e35dda2571)
+
+![image](https://github.com/user-attachments/assets/dda1048b-24de-420e-b881-fea0637534d3)
+
+Now, a small modification will make this run from the posedge of the clock.
+
+![image](https://github.com/user-attachments/assets/afdd3b7d-f3c8-43e4-934e-4b584e25c5d1)
+
+Section 3: Understanding SV Datatypes
+
+Agenda
+
+2 state means, only 0 and 1. 4 states means 0,1,x and z.
+
+![image](https://github.com/user-attachments/assets/fbb2b065-85b5-451a-b18b-8ed1a563b3ad)
+
+Datatypes P1
+
+We divide the datatypes into 3 for our convenience. First is hardware datatypes(wire and reg). Then when we need to add some variables into the code, we use some datatypes. And the next is the datatypes for simulation. When we use wire datatype in the procedural block, it will throw an error similarly, if we use the reg data type in assign datatype, it will throw an error in verilog. To overcome this, we use a datatype 'logic' in SV, which automatically switches to reg or wire.
+
+![image](https://github.com/user-attachments/assets/0ff37822-3024-4419-8dd5-1b157e857fe3)
+
+Datatypes P2
+
+real is 64 bit capable. Floating point has only 'real' data type. If the datatype is capable of working with 4-states(1,0,x,z), we call it 4-state. In 4-state also we have only one datatype 'integer' which is 32 bit. Also, generally the 2-state unsigned datatype is 32 bit.
+
+![image](https://github.com/user-attachments/assets/192b22f1-4196-47f2-af3b-914f9e7f8a6f)
+
+![image](https://github.com/user-attachments/assets/f78e27eb-b656-494e-945d-c3e159125104)
+
+Datatypes P3
+
+Let us assume that there is a connection between the variable type and hardware type, finally the variable will be mapped to wire or reg type.
+
+![image](https://github.com/user-attachments/assets/79750619-eafb-4d59-b14f-6ee3043b1394)
+
+![image](https://github.com/user-attachments/assets/8c9d5afc-f9a1-4a29-bea4-5e2a3ea5edf8)
+
+Datatypes P4
+
+In simulation datatypes, for fixed point, we use 'time'(64-bit) and for floating point, we use 'realtime'. Here everything we discussed is multibits. To use single bit, we use 'bit'. Here all the datatypes are summarized.
+
+![image](https://github.com/user-attachments/assets/4b726bbc-76c3-46ae-a9e5-5b141fe80c3e)
+
