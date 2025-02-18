@@ -1,4 +1,4 @@
-# System-Verilog_Udemy
+![image](https://github.com/user-attachments/assets/ce1946a4-df1b-41fe-900e-3b37b1c4175f)# System-Verilog_Udemy
 
 ![image](https://github.com/user-attachments/assets/e5cb240e-9ca9-412c-9a5a-3a6e24fa5641)
 
@@ -158,3 +158,26 @@ In simulation datatypes, for fixed point, we use 'time'(64-bit) and for floating
 
 ![image](https://github.com/user-attachments/assets/4b726bbc-76c3-46ae-a9e5-5b141fe80c3e)
 
+Demonstration of Datatypes P1
+
+Providing the initial value is not mandatory. But providing an initial value is a good option. Default value of 2 state variable is '0' and the default value of 4 state variable is 'x'.
+
+![image](https://github.com/user-attachments/assets/2b2cec16-bf17-4aa9-a6d9-c26d5803ad4e)
+
+Demonstration of Datatypes P2
+
+If we give the values out of range, we will get unexpected results.
+
+![image](https://github.com/user-attachments/assets/a5e3ac4d-77fd-469c-b21a-330de37fe318)
+
+![image](https://github.com/user-attachments/assets/f46f4904-674b-4cf8-96cb-e9ae802a35cc)
+
+Demonstration of Datatypes P3
+
+Here we are trying to display the realtime which is a floating point in 'time' datatype. So, we don't get the expected result.
+
+![image](https://github.com/user-attachments/assets/6e5577e5-5c65-40a0-82d6-fc738f20c611)
+
+Here the realtime is printed in picoseconds.
+
+![image](https://github.com/user-attachments/assets/1d09dd41-02a7-483e-aa3a-104ba2e9eb0e)
