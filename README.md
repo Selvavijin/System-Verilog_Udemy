@@ -181,3 +181,14 @@ Here we are trying to display the realtime which is a floating point in 'time' d
 Here the realtime is printed in picoseconds.
 
 ![image](https://github.com/user-attachments/assets/1d09dd41-02a7-483e-aa3a-104ba2e9eb0e)
+
+Demonstration of Datatypes P4
+
+![image](https://github.com/user-attachments/assets/f275d123-1a34-40a6-b4e0-a81d808a518b)
+
+Demonstration of Datatypes P6
+
+![image](https://github.com/user-attachments/assets/99ca6b11-963f-4c71-bc48-c76cad1407e4)
+
+The datatype 'logic' can be used instead on wire or reg. Eg: Let us say that in one place we are using the 'reg' and we are getting error. Because, we are supposed to use 'wire' there. But, instead of using 'wire', even if we are using 'logic', it is correct in system verilog.  
+This 'logic' type is particularly useful in interfaces.
