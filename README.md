@@ -192,3 +192,26 @@ Demonstration of Datatypes P6
 
 The datatype 'logic' can be used instead on wire or reg. Eg: Let us say that in one place we are using the 'reg' and we are getting error. Because, we are supposed to use 'wire' there. But, instead of using 'wire', even if we are using 'logic', it is correct in system verilog.  
 This 'logic' type is particularly useful in interfaces.
+
+Using array P1
+
+In fixed size array, we need to initialize the size of the array or we need to specify the initial values of the array(From that the size will be fixed).
+
+![image](https://github.com/user-attachments/assets/3b415e3d-6fe6-4240-8122-86aa76145197)
+
+Using array P2
+
+![image](https://github.com/user-attachments/assets/8bba9876-8059-4b5d-a69f-8b1a60ad2f64)
+
+Array Initialization Strategies
+
+Note: The default value of 2 state variable is '0' and the default value of 4 state variable is 'x'.
+
+![image](https://github.com/user-attachments/assets/0a87b8e6-41c5-4861-9353-ef4499a8eb99)
+
+Demonstration
+
+![image](https://github.com/user-attachments/assets/8312377c-3bce-47b8-9c68-9285fd7aa8e9)
+
+![image](https://github.com/user-attachments/assets/c196e023-3152-4e0e-b169-a2124c5d7b3c)
+
