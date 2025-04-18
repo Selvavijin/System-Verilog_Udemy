@@ -215,3 +215,24 @@ Demonstration
 
 ![image](https://github.com/user-attachments/assets/c196e023-3152-4e0e-b169-a2124c5d7b3c)
 
+Loops for repetitive array operation P1
+
+![image](https://github.com/user-attachments/assets/c431f4ca-d7ca-4358-b13f-b7975cf6bad6)
+
+Loops for repetitive array operation P2
+
+![image](https://github.com/user-attachments/assets/4c54a602-83e3-47cd-b7f2-4dcf2e1d1440)
+
+Loops for repetitive array operation P3
+
+![image](https://github.com/user-attachments/assets/340cc878-92a0-4c38-b0f2-effa5ec51a60)
+
+Array Operation P1 : COPY
+
+To perform array operation between two arrays, the two arrays should have the same size and also the arrays should have same data type.
+
+![image](https://github.com/user-attachments/assets/2f8981f5-099f-4164-a59d-91699daa29c7)
+
+Array Operation P1 : COMPARE
+
+![Uploading image.png…]()
