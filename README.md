@@ -235,4 +235,48 @@ To perform array operation between two arrays, the two arrays should have the sa
 
 Array Operation P1 : COMPARE
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/c4c53bfd-5aff-4e63-b678-d6e8b07b3ada)
+
+Dynamic Array P1
+
+When we add a constructor to the class, we use paranthesis. When we specify the size of the dynamic array, we use square bracket.
+
+![image](https://github.com/user-attachments/assets/aea7ca96-f4ea-42d5-a720-63c335565f5c)
+
+Dynamic Array P2
+
+Initially we have the size of 5 using the new method(arr=new[5]). The we have the size of 30 using the new method. We we initialize the size as 30, the previous data that are present will be removed(arr=new[30]). But, if we want the previous data that are already present, we need to use "arr = new[30] (arr)", here the first five positions is for the previous data and the rest 25 positions is for the new data.
+
+![image](https://github.com/user-attachments/assets/d354cee5-b2ec-4823-b1ba-38c56ce60953)
+
+Dynamic Array P3
+
+We can also convert the dynamic array to the fixed array by assigning. It is possible only if the dynamic array has the same size and same datatype as fixed array.
+
+![image](https://github.com/user-attachments/assets/b645abb7-1582-495d-a904-c11cae030480)
+
+Queue P1
+
+In queue, the memory is efficiently utilized as compared to the dynamic array. In fixed or dynamic array, we need to mention an apostraphe(') before declaring the values. But in the case of queue, we don't need to use apostraphe(').
+
+![image](https://github.com/user-attachments/assets/41ed8b9b-a500-4c49-8dd0-186bba70c0e7)
+
+Queue P2
+
+![image](https://github.com/user-attachments/assets/f5007b50-e612-436b-8d62-48b605ae10da)
+
+Fundamentals of System Verilog OOP Construct
+
+Agenda
+
+![image](https://github.com/user-attachments/assets/d8161a3c-a03a-4e03-87c1-8a461d6338a0)
+
+Fundamentals of Class P1
+
+![image](https://github.com/user-attachments/assets/0c3db4e4-c951-4129-805a-dc76e034e2c6)
+
+Fundamentals of Class P2
+
+As soon as we add a constructor to the handler, memory is allocated to the class.
+
+
