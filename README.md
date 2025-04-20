@@ -275,8 +275,45 @@ Fundamentals of Class P1
 
 ![image](https://github.com/user-attachments/assets/0c3db4e4-c951-4129-805a-dc76e034e2c6)
 
+The modules that are present in the verilog code at the right is the "static objects" because, the module 'dut' will be created at the start of the simulation and will stay till the end of the simulation. Whereas in SV, inside the class, the objects are "dynamic objects". Because, we don't keep that objects for the entire simulation span. Instead, we create the object and once it serves its purpose, we delete it.
+
 Fundamentals of Class P2
 
-As soon as we add a constructor to the handler, memory is allocated to the class.
+The constructor specifies, when to create an object of a class. "new()" is refered to as constructor. As soon as we add a constructor to the handler, memory is allocated to the class. 
 
+![image](https://github.com/user-attachments/assets/723a0c9d-0fe8-4ff0-9dbd-be415389f4d4)
+
+Fundamentals of Class P3
+
+To deactivate the memory allocated to the class, we can use "null"
+
+![image](https://github.com/user-attachments/assets/5fa7130e-f48f-475b-a62d-34ba02cce9ad)
+
+Ways to add Method to Class
+
+The main difference between the task and function is, in task we can mention the timing parameters, whereas, in function we can't mention the timing parameters.
+
+![image](https://github.com/user-attachments/assets/67c692ae-2f86-4789-8afb-d9a760023eb7)
+
+Using Function
+
+In the first line, "bit[4:0]" is the return type, where a and b are 4 bits, so the return should be of 5 bits.
+
+![image](https://github.com/user-attachments/assets/ad95398e-5935-47f5-997c-8383d1058a66)
+
+The code shown below will throw an error. Because, there is no values inside the "add()" in the initial block. 
+
+![image](https://github.com/user-attachments/assets/7e69d487-e9db-43e1-a01b-454e73a71d68)
+
+If we specify the default value, it will not throw the error.
+
+![image](https://github.com/user-attachments/assets/92a4badc-93a0-40ba-b9a1-ad17a14dd069)
+
+The other we can do is shown below.
+
+![image](https://github.com/user-attachments/assets/7cde73f8-93e3-4b39-947c-8349f2748402)
+
+There is also a void function where, we don't return anything and we print something.
+
+![image](https://github.com/user-attachments/assets/50851476-b520-491c-b243-b848251afbdd)
 
