@@ -317,3 +317,8 @@ There is also a void function where, we don't return anything and we print somet
 
 ![image](https://github.com/user-attachments/assets/50851476-b520-491c-b243-b848251afbdd)
 
+Using Task
+
+![image](https://github.com/user-attachments/assets/7f5d8101-6df6-4a68-91e4-e9efc75fdf7c)
+
+![image](https://github.com/user-attachments/assets/810f270e-aeb7-4cad-8cf3-da0b12d38faa)
