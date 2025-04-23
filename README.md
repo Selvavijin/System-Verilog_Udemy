@@ -324,3 +324,30 @@ If we forget to mention the directions(input, output) in the arguments of the fu
 ![image](https://github.com/user-attachments/assets/7f5d8101-6df6-4a68-91e4-e9efc75fdf7c)
 
 ![image](https://github.com/user-attachments/assets/810f270e-aeb7-4cad-8cf3-da0b12d38faa)
+
+Pass by value and Pass by reference
+
+Pass by reference is generally used in arrays where we need to update the values present inside the array. For that we use the keyword 'ref'. If we don't want to change the values inside the array, we can use 'const ref'.
+
+![image](https://github.com/user-attachments/assets/a09fd041-c58d-4d56-b01d-ef86c7a301b9)
+
+Demonstration of Pass by Value
+
+In pass by value, the value of a and b present in the main code(highlighted in yellow), will not change even though we change the value inside the task.
+
+![image](https://github.com/user-attachments/assets/ac0f0435-77a9-4a4e-81d1-ab7621e8bf42)
+
+Demonstration of Pass by Reference
+
+In pass by reference, the value of a,b present in the main code will be updated. To avoid this, we can use the keyword 'const' in front of the keyword 'ref'. But, it will throw a compile time error. Also it is important to use the keyword 'automatic' in task or function to use pass by reference.
+
+![image](https://github.com/user-attachments/assets/b5f5631d-f580-48cc-983c-4e4e5db78b3d)
+
+Summary
+
+![image](https://github.com/user-attachments/assets/4ca27f1f-813a-4094-9f8b-0fec7c3755eb)
+
+Using Array in Function
+
+![image](https://github.com/user-attachments/assets/2343e6b9-941d-490c-bac9-0a07e1a39873)
+
