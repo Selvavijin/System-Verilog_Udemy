@@ -319,6 +319,8 @@ There is also a void function where, we don't return anything and we print somet
 
 Using Task
 
+If we forget to mention the directions(input, output) in the arguments of the function or task, by default it will be considered as input.
+
 ![image](https://github.com/user-attachments/assets/7f5d8101-6df6-4a68-91e4-e9efc75fdf7c)
 
 ![image](https://github.com/user-attachments/assets/810f270e-aeb7-4cad-8cf3-da0b12d38faa)
