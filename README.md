@@ -379,3 +379,18 @@ Using task in Class
 
 ![image](https://github.com/user-attachments/assets/3f356055-826a-4b12-a1cf-6cfc43af4ea6)
 
+Using Class in Class
+
+![image](https://github.com/user-attachments/assets/15866031-cad1-4ae2-a85a-5df346c6b173)
+
+Scope of Data member
+
+Previously we can access the data present in the class first can be accessed outside. Now, let us see how to make the data accessible only inside the class. This can be done by using the keyword 'local'. To access the data members, we need to add independent methods as shown in the code below.
+
+![image](https://github.com/user-attachments/assets/3907fab5-2f23-4d0e-ba1c-cbec43d9fd7a)
+
+Copying Object
+
+Sometimes we will be interested in keeping the copy of the original data. Here, f1 has the original data and p1 just have the copy of it. p1 will only get the access to the value to the data member. So, even if we try to change the value of data for p1, the changes will not be reflected in the original data.
+
+![image](https://github.com/user-attachments/assets/79398852-35cf-4d19-81d6-fb37f12fcc2f)
