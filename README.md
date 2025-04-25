@@ -394,3 +394,9 @@ Copying Object
 Sometimes we will be interested in keeping the copy of the original data. Here, f1 has the original data and p1 just have the copy of it. p1 will only get the access to the value to the data member. So, even if we try to change the value of data for p1, the changes will not be reflected in the original data.
 
 ![image](https://github.com/user-attachments/assets/79398852-35cf-4d19-81d6-fb37f12fcc2f)
+
+Strategies to copy Object
+
+![image](https://github.com/user-attachments/assets/1126e5f9-b3d7-40cb-8484-2761642c091b)
+
+'function first copy()', here all the data members present in the class 'first' will be returned by the function.
