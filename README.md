@@ -399,4 +399,9 @@ Strategies to copy Object
 
 ![image](https://github.com/user-attachments/assets/1126e5f9-b3d7-40cb-8484-2761642c091b)
 
+Custom Method
+
 'function first copy()', here all the data members present in the class 'first' will be returned by the function.
+
+![image](https://github.com/user-attachments/assets/cc6d2fdd-c109-4305-84d3-17b8e4a92aa1)
+
