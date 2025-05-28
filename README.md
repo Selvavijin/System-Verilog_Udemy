@@ -405,3 +405,12 @@ Custom Method
 
 ![image](https://github.com/user-attachments/assets/cc6d2fdd-c109-4305-84d3-17b8e4a92aa1)
 
+Shallow Copy demonstration
+
+![image](https://github.com/user-attachments/assets/82f75722-bb51-40ac-9052-db963aeb0d9a)
+
+In Deep copy, we get two independent copies of data member and class. Whereas, in case of shallow copy, we get 2 independent datamembers, but not the class.
+
+
+
+![image](https://github.com/user-attachments/assets/2915ee7e-2061-44d9-a6d4-ba283ef9baba)
