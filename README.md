@@ -411,6 +411,20 @@ Shallow Copy demonstration
 
 In Deep copy, we get two independent copies of data member and class. Whereas, in case of shallow copy, we get 2 independent datamembers, but not the class.
 
-
-
 ![image](https://github.com/user-attachments/assets/2915ee7e-2061-44d9-a6d4-ba283ef9baba)
+
+Extending Class properties by Inheritance
+
+In extend class, the properties and data member of the class will be extended. We can also represent the first class as the parent class and the extended class as the child class as shown in the code below.
+
+![image](https://github.com/user-attachments/assets/fb282c04-6a0c-4239-a305-238ea36db66e)
+
+Polymorphism
+
+Here, when we add the virtual keyword in the parent class, then the method in the child class will be executed. Else the method inside the parent class will be executed.
+
+![image](https://github.com/user-attachments/assets/4c39d484-37d5-47e8-b043-dc0fec14d73f)
+
+Understanding Usage of Super Keyword
+
+![image](https://github.com/user-attachments/assets/6eebfc74-0303-4d82-bc08-0b7bde61264f)
