@@ -265,6 +265,43 @@ Queue P2
 
 ![image](https://github.com/user-attachments/assets/f5007b50-e612-436b-8d62-48b605ae10da)
 
+Verification Fundamentals
+
+Directed Test Vs Constraint Random Test P1
+
+In case of Directed Test, there are number of test cases and send the cases one by one to the DUT and check whether it is passed. This can be applied when we have limited number of test cases.
+
+![image](https://github.com/user-attachments/assets/45f4aca3-c24e-4d27-8c89-a93ebd8793d2)
+
+In constraint random test, We develop a covergroup for each for each testcases. Also, this test is faster than Directed test.
+
+Layered Architecture P1
+
+We do not care about the design code and the only thing we need is the output of the design code which are signals. So that particular layer is called signal layer or layer 1.
+
+![image](https://github.com/user-attachments/assets/f7377ded-78e1-4d75-9af4-013112762da4)
+
+Layered Architecture P2
+
+![image](https://github.com/user-attachments/assets/5887bb76-802f-4fa5-ab01-8e6aa8cb0dd5)
+
+Summary : Layered Architecture
+
+![image](https://github.com/user-attachments/assets/3ee5acad-3b36-4ddb-9a77-8720ea1323f3)
+
+Individual Components of TB
+
+![image](https://github.com/user-attachments/assets/0d21d9a4-2e32-4a36-89d8-20c8fe968e99)
+
+Randomization
+
+Generating random values with rand P2
+
+The process of generation a random value for the signal follows two steps. First, add modifier(rand). Second is, to call the 'randomize' method. Here, 'g.randomize()' will generate random values which are initialized using the 'rand' keyword inside the class. And after 10ns '#10', new values will be generated. The problem here is, we can see the repetition of values in the output.
+
+![image](https://github.com/user-attachments/assets/230f6c2a-3e9c-46a5-aebf-41651cb820e1)
+
+
 Fundamentals of System Verilog OOP Construct
 
 Agenda
