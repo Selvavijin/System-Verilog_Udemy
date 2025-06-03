@@ -301,6 +301,35 @@ The process of generation a random value for the signal follows two steps. First
 
 ![image](https://github.com/user-attachments/assets/230f6c2a-3e9c-46a5-aebf-41651cb820e1)
 
+randc vs rand
+
+The example for 'rand' is shown above. In case of 'randc-cyclic rand', there will not be repetition of value until all the possibilities of values.
+
+Checking randomization is successful : IF ELSE and assert
+
+![image](https://github.com/user-attachments/assets/bf61ccbe-6a0b-457d-92ce-7022244a15ec)
+
+Care while working with multiple Stimuli
+
+![image](https://github.com/user-attachments/assets/23aa6239-a08f-4d0a-81da-6812134df028)
+
+Adding Constraint : Simple Expression
+
+![image](https://github.com/user-attachments/assets/b36d2190-5703-4814-8a9e-4a86a320854c)
+
+Adding Constraint : Working with Ranges P1,P2
+
+![image](https://github.com/user-attachments/assets/9edb1961-ca75-4a3a-95b7-4e9e736197bf)
+
+External Function and Constraint
+
+![image](https://github.com/user-attachments/assets/0e159f05-2479-4966-a931-23a238e02cbe)
+
+Pre and Post Randomization Methods
+
+![image](https://github.com/user-attachments/assets/9b3c089e-5db6-4383-802c-c0c4d53d2242)
+
+
 
 Fundamentals of System Verilog OOP Construct
 
