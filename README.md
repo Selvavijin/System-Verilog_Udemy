@@ -329,6 +329,40 @@ Pre and Post Randomization Methods
 
 ![image](https://github.com/user-attachments/assets/9b3c089e-5db6-4383-802c-c0c4d53d2242)
 
+Understanding randc bucket
+
+In randc, if we mention a constraint, there will be a bucket of values as shown below and for each iteration, one one values will come out. If we change the constraint in the run time, we can still able to see the values that are generated in the previous constraint if it is related.
+
+![image](https://github.com/user-attachments/assets/ca7553e2-9080-4161-a7c9-8860215c18d5)
+
+Things you need to consider while working with RANDC
+
+![image](https://github.com/user-attachments/assets/661e5295-f920-4b05-9c89-673969709ef2)
+
+Weighted Distribution P1
+
+We use the keyword 'dist' for weighted distribution. ':=', ':/' These are the operators we have in weighted distribution. Here, we are declaring a variable 'wr' which represents 'write' operation. We prefer most of the times, the 'write' should be 1. So we assign 90 for the value 1 and 10 for the value 0. Here, 90+10=100, 90 and 10 are the probability of occuring 1 and 0 respectively. 
+
+![image](https://github.com/user-attachments/assets/ea5c0b18-a7c1-4172-b9c1-dd299c0c16cf)
+
+Weighted Distribution P2
+
+Both the operators mentioned above will perform same operation when we work on individual values. But, when we work on range of values, we can see the difference. ':=', this operator gives equal weight to all the values inside the range. ':/', this divides weight equally between values of the range. Example for ':=' operator is shown below.
+
+![image](https://github.com/user-attachments/assets/dcdc6bd4-c712-46f2-890b-ceeb35c8d32b)
+
+Weighted Distribution P2
+
+Example for ':/' operator is shown below.
+
+![image](https://github.com/user-attachments/assets/8049da3a-c5b3-44fe-88e8-a4da5089c8a1)
+
+Using Weighted Distribution P1
+
+If we run and see the code we can observe that, :/ is more efficient than :=.
+
+![image](https://github.com/user-attachments/assets/75ff46f4-9012-482b-90d4-72e1f8f08330)
+
 
 
 Fundamentals of System Verilog OOP Construct
