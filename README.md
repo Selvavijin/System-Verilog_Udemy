@@ -363,7 +363,17 @@ If we run and see the code we can observe that, :/ is more efficient than :=.
 
 ![image](https://github.com/user-attachments/assets/75ff46f4-9012-482b-90d4-72e1f8f08330)
 
+Constraint operator
 
+Implication Operator
+
+Here, when rst is 0, ce should be 1. And when rst is 1, ce can be 0 or 1.
+
+![image](https://github.com/user-attachments/assets/a632a2ae-e8df-4288-b55f-ffc485725762)
+
+Equivalence Operator
+
+![image](https://github.com/user-attachments/assets/b9f9de4c-7ac1-4ccb-aa93-c0cb9c26ab03)
 
 Fundamentals of System Verilog OOP Construct
 
