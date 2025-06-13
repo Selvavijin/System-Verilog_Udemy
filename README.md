@@ -375,6 +375,14 @@ Equivalence Operator
 
 ![image](https://github.com/user-attachments/assets/b9f9de4c-7ac1-4ccb-aa93-c0cb9c26ab03)
 
+IF ELSE Operator
+
+![image](https://github.com/user-attachments/assets/53b3ad73-adc3-494c-8574-b6cd9d198f6d)
+
+Turning ON and OFF Constraint
+
+![image](https://github.com/user-attachments/assets/376f7ed4-f05d-48b7-94d0-27d65041f837)
+
 Fundamentals of System Verilog OOP Construct
 
 Agenda
